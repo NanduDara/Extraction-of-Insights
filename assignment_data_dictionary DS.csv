@@ -1,0 +1,50 @@
+Data Field,Description,Preprocessing Required or Not
+UID,Unique customer ID,No Preprocessing Requiered (Unique Values)
+CUSTOMER_PROFILE_CODE,Profile of customers ,No Preprocessing Requiered (Unique Values)
+Good_Bad,Customer turned Bad or Good,No Preprocessing Requiered (Target Attribute)
+LOCATIONNAME,Location name,"No (But have some values ""CONTRACT WORK PROGRESS"", ""4"", ""7"", ""8"", ""PROPRIETOR"" and also empty values) which are not location names. But we should not replace those values because they might effect in explaining characteristics"
+VEHICLEMODEL,Vehicle Model,No (There are empty values. And we cannot change these empty values to other values. There might be chance that person who did not keep vehicle as asset for loan has not given vehicle details)
+ASSETCOST,Asset cost,There are empty values or NA values (We could not replace these values with mean or mode value because this might totally effect the accuracy in explaining the characteristics of good and bad customers )
+LOANAMOUNT,Loan Amount,There are empty values or NA values
+EMI,EMI,There are empty values or NA values
+TENURE,Tenur,There are empty values or NA values
+ADDRESSCONFIRMED,Address confirmed,There are empty values or NA values
+DESIGNATION,Applicant Designation,There are empty values or NA values
+RESIDENCETYPE,Residence type,There are empty values or NA values
+NOOFYEARSINSAMECITY,No. of years in same city,There are empty values or NA values
+RESIDENCESTABILITY,Residence stability,There are empty values or NA values
+RESIDENCELOCALITY,Residence locality,There are empty values or NA values
+BUSINESSCATEGORY,Business category,There are empty values or NA values
+BUSINESSMARGINGROSS,Business margin gross,There are empty values or NA values
+INCOMEEMPLOYMENT,Income employment,There are empty values or NA values
+STABILITYINBUSINESS,Stability in business,There are empty values or NA values
+STABILITYCONFIRMED,Stability confirmed,There are empty values or NA values
+STABILTIYCONFIRMEDTHRU,Who confirmed the stability,There are empty values or NA values
+ISFAMILYINVOLVED,Is family involved,There are empty values or NA values
+OFFICETYPE,Office type,There are empty values or NA values
+MONTHLYTURNOVER,Monthly turn over,There are empty values or NA values
+STOCKVALUEINHAND,Stock value in hand,There are empty values or NA values
+BUSINESSMARGINNET,Business margin net,There are empty values or NA values
+NOOFEMPLOYEES,No. of employees,There are empty values or NA values
+NAMEBOARDSEEN,Name board seen,There are empty values or NA values
+OFFICELOCALITY,Locality of customer office,There are empty values or NA values
+ISRESIDENCECOMEOFFICE,Is residence cum office?,There are empty values or NA values
+ENDUSEOFLOAN,End use of loan,There are empty values or NA values
+ENDUSEOFASSET,End use of Asset,There are empty values or NA values
+ASSETLOCATION,Asset location,There are empty values or NA values
+NEIGHBOURREF,Neighbour reference,There are empty values or NA values
+POLITICALLINK,Political link,There are empty values or NA values
+PROFESSIONTYPE,Profession type,There are empty values or NA values
+CURRENTBUSINESSSTABILITY,Current business stability,There are empty values or NA values
+APPLICANTDESIGNATION,Applicant designation,There are empty values or NA values
+ASSETREGMONTH,Asset registration month,There are empty values or NA values
+ASSETREGYEAR,Asset registration year,There are empty values or NA values
+LANDOWNERSHIP,Land ownership,There are empty values or NA values
+IRRIGATIONSOURCE,Irrigation source,There are empty values or NA values
+CROPSCULTIVATED,Crops cultivated,There are empty values or NA values
+DISTFROMSCELOCATION,Distance from SCE location,There are empty values or NA values
+DISTFROMDEALERLOCATION,Distance from Dealer location,There are empty values or NA values
+IMGCONFIRM,Image confirm,There are empty values or NA values
+TOTALEXPENSEPERMONTH,Total expenses per month,There are empty values or NA values
+NETINCOMEPERMONTH,Netincome per month,There are empty values or NA values
+FOIR,Fixed income obligation & expenses ratio,There are empty values or NA values
